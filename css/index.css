@@ -11,3 +11,9 @@ body {
     height: 100vh;
     background-color: hsl(30, 38%, 92%);
 }
+
+main {
+    max-width: 600px;
+    max-height: 500px;
+    background-color: white;
+}
