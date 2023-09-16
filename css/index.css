@@ -12,6 +12,10 @@ body {
     background-color: hsl(30, 38%, 92%);
 }
 
+header {
+    margin: 100%;
+}
+
 main {
     max-width: 600px;
     max-height: 500px;
