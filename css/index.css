@@ -81,10 +81,6 @@ button.button {
     border-radius: 10px;
 }
 
-button:hover {
-    color: white;
-}
-
 @media screen and (min-width: 1440px) {
 
     main {
