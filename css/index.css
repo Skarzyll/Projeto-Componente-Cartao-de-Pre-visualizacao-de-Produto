@@ -22,7 +22,7 @@ body {
 }
 
 main {
-    max-width: 300px;
+    max-width: 320px;
     height: 550px;
     background-color: white;
     border-radius: 10px;
@@ -30,7 +30,7 @@ main {
 
 section.image {
     width: 100%;
-    height: 50%;
+    height: 40%;
     background: black url(../images/image-product-mobile.jpg) center center no-repeat;
     background-size: cover;    
     border-radius: 10px 10px 0px 0px;
@@ -38,14 +38,14 @@ section.image {
 
 section.infos {
     width: 100%;
-    height: 50%;
+    height: 60%;
     padding: 15px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1.myh1 {
     font-family: var(--fonte-h1);
     font-weight: 700;
-    font-size: xx-large;
+    font-size: 1.8em;
 }
 
 p {
@@ -78,8 +78,44 @@ div > p.pcortado {
 button.button {
     background-color: hsl(158, 36%, 37%);
     color: white;
+    border-radius: 10px;
 }
 
 button:hover {
     color: white;
+}
+
+@media screen and (min-width: 1440px) {
+
+    main {
+        display: flex;
+        max-width: 600px;
+        height: 450px;
+    }
+
+    section.image {
+        width: 50%;
+        height: 100%;
+        background: black url(../images/image-product-desktop.jpg) center center no-repeat;
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    section.infos {
+        width: 50%;
+        height: 100%;
+        padding: 25px;
+    }
+
+    h1.myh1 {
+        font-size: 2.2em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+
+    p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
