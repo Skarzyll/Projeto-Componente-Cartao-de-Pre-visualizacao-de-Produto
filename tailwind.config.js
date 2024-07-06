@@ -14,9 +14,9 @@ module.exports = {
       },
 
       backgroundImage: {
-        'imagemobile': "url('/src/images/image-product-mobile.jpg')",
+        'imagemobile': "url('src/images/image-product-mobile.jpg')",
 
-        'imagedesktop': "url('/src/images/image-product-desktop.jpg')",
+        'imagedesktop': "url('src/images/image-product-desktop.jpg')",
       },
       height: {
         'sect': '450px'
