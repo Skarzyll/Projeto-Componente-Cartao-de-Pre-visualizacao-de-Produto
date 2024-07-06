@@ -44,7 +44,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Bulma](https://bulma.io/) - CSS framework
+- [Tailwindcss](https://tailwindcss.com/) - CSS framework
 
 ## Author
 
