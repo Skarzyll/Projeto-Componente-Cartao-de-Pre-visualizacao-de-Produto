@@ -13,11 +13,11 @@ p {
 }
 
 section.image {
-    background: black url('images/image-product-mobile.jpg') cover cover no-repeat;
+    background: black url('image/image-product-desktop.jpg') cover cover no-repeat;
 }
 
 @media screen and (min-width: 1280px) {
     section.image {
-        background: black url('images/image-product-desktop.jpg') cover cover no-repeat;
+        background: black url('image/image-product-mobile.jpg') cover cover no-repeat;
     }
 }

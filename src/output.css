@@ -652,7 +652,7 @@ video {
 }
 
 .bg-color-p{
-  background-color: hsl(158, 36%, 37%);;
+  background-color: hsl(158, 30%, 37%);;
 }
 
 .bg-white{
@@ -661,7 +661,7 @@ video {
 }
 
 .bg-imagemobile{
-  background-image: url('/src/images/image-product-mobile.jpg');
+  background-image: url('image/image-product-mobile.jpg');
 }
 
 .bg-cover{
@@ -725,12 +725,17 @@ video {
 }
 
 .text-color-p{
-  color: hsl(158, 36%, 37%);;
+  color: hsl(158, 30%, 37%);;
 }
 
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-h1-color{
+  --tw-text-opacity: 1;
+  color: hsl(212 21% 14% / var(--tw-text-opacity));
 }
 
 .line-through{
@@ -749,61 +754,36 @@ p {
   font: var(--fonte-p);
 }
 
+section.image {
+  background: black url('image/image-product-desktop.jpg') cover cover no-repeat;
+}
+
+@media screen and (min-width: 1280px) {
+  section.image {
+    background: black url('image/image-product-mobile.jpg') cover cover no-repeat;
+  }
+}
+
+.hover\:bg-button-hover:hover{
+  --tw-bg-opacity: 1;
+  background-color: hsl(158 50% 20% / var(--tw-bg-opacity));
+}
+
 @media (min-width: 1280px){
   .xl\:mb-4{
     margin-bottom: 1rem;
-  }
-
-  .xl\:mb-6{
-    margin-bottom: 1.5rem;
-  }
-
-  .xl\:mt-4{
-    margin-top: 1rem;
-  }
-
-  .xl\:mt-6{
-    margin-top: 1.5rem;
-  }
-
-  .xl\:mt-8{
-    margin-top: 2rem;
   }
 
   .xl\:mt-11{
     margin-top: 2.75rem;
   }
 
-  .xl\:mt-96{
-    margin-top: 24rem;
-  }
-
-  .xl\:mt-2{
-    margin-top: 0.5rem;
-  }
-
-  .xl\:mt-2\.5{
-    margin-top: 0.625rem;
-  }
-
-  .xl\:-mt-1{
-    margin-top: -0.25rem;
-  }
-
-  .xl\:mt-10{
-    margin-top: 2.5rem;
-  }
-
-  .xl\:mt-20{
-    margin-top: 5rem;
-  }
-
-  .xl\:mt-9{
-    margin-top: 2.25rem;
-  }
-
   .xl\:mt-16{
     margin-top: 4rem;
+  }
+
+  .xl\:mt-4{
+    margin-top: 1rem;
   }
 
   .xl\:flex{
@@ -826,30 +806,6 @@ p {
     width: auto;
   }
 
-  .xl\:flex-1{
-    flex: 1 1 0%;
-  }
-
-  .xl\:flex-grow{
-    flex-grow: 1;
-  }
-
-  .xl\:items-center{
-    align-items: center;
-  }
-
-  .xl\:items-baseline{
-    align-items: baseline;
-  }
-
-  .xl\:items-stretch{
-    align-items: stretch;
-  }
-
-  .xl\:justify-items-end{
-    justify-items: end;
-  }
-
   .xl\:rounded-bl-xl{
     border-bottom-left-radius: 0.75rem;
   }
@@ -863,7 +819,7 @@ p {
   }
 
   .xl\:bg-imagedesktop{
-    background-image: url('/src/images/image-product-desktop.jpg');
+    background-image: url('image/image-product-desktop.jpg');
   }
 
   .xl\:bg-cover{
@@ -880,19 +836,6 @@ p {
 
   .xl\:p-6{
     padding: 1.5rem;
-  }
-
-  .xl\:align-bottom{
-    vertical-align: bottom;
-  }
-
-  .xl\:align-super{
-    vertical-align: super;
-  }
-
-  .xl\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .xl\:text-4xl{

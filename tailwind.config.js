@@ -1,12 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./src/**/*.{html,js}",
+    'index.html',
+  ],
   theme: {
     extend: {
       colors: {
         'body-color': 'hsl(30, 38%, 92%)',
-        'color-p': 'hsl(158, 36%, 37%);',
-        
+        'color-p': 'hsl(158, 30%, 37%);',
+        'h1-color': 'hsl(212, 21%, 14%)',
+        'button-hover': 'hsl(158, 50%, 20%)',
       },
 
       fontFamily: {
@@ -14,9 +18,9 @@ module.exports = {
       },
 
       backgroundImage: {
-        imagemobile: "url('src/images/image-product-mobile.jpg')",
+        imagemobile: "url('image/image-product-mobile.jpg')",
 
-        imagedesktop: "url('src/images/image-product-desktop.jpg')",
+        imagedesktop: "url('image/image-product-desktop.jpg')",
       },
       height: {
         'sect': '450px'
